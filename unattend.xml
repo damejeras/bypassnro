@@ -48,18 +48,9 @@
 			<UserAccounts>
 				<LocalAccounts>
 					<LocalAccount wcm:action="add">
-						<Name>Admin</Name>
+						<Name>admin</Name>
 						<DisplayName></DisplayName>
 						<Group>Administrators</Group>
-						<Password>
-							<Value></Value>
-							<PlainText>true</PlainText>
-						</Password>
-					</LocalAccount>
-					<LocalAccount wcm:action="add">
-						<Name>User</Name>
-						<DisplayName></DisplayName>
-						<Group>Users</Group>
 						<Password>
 							<Value></Value>
 							<PlainText>true</PlainText>
@@ -68,7 +59,7 @@
 				</LocalAccounts>
 			</UserAccounts>
 			<AutoLogon>
-				<Username>Admin</Username>
+				<Username>admin</Username>
 				<Enabled>true</Enabled>
 				<LogonCount>1</LogonCount>
 				<Password>
